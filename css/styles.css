@@ -1,0 +1,69 @@
+:root {
+    --color-dorado: rgb(101, 88, 16);/
+}
+
+body {
+    font-family: 'Open Sans', Arial, sans-serif;
+    background-image: url("../img/fondoo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.container img {
+    width: 200px;
+    border-radius: 50%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+table {
+    width: 100%;
+}
+
+
+.container-info {
+    margin-top: 2.25em;
+    width: 100%;
+    background-color:#ffffff;
+    border-radius: 10px;
+    box-shadow: 0 5px var(--color-dorado);
+}
+
+.columns {
+    font-size: 18px;
+    color: var(--color-dorado);
+    border-bottom: 2px solid var(--color-dorado);
+    border-right: 2px solid var(--color-dorado);
+}
+
+table th {
+    padding: 1.25em 1.9em 1.25em 1.25em;
+    
+}
+
+.columns-data {
+    border-right: 2px solid var(--color-dorado);
+}
+
+.columns-data a i {
+    font-size: 24px;
+    color: rgba(19, 63, 194, 0.856); 
+}
+
+
+.youtube-video {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.youtube-video iframe {
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
